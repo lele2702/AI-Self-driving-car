@@ -30,6 +30,9 @@ class Controls{
                     this.reverse = true;
                     break;
             }
+            /*
+            * debug for controls
+            */
             console.table(this);
         }
 
@@ -48,6 +51,9 @@ class Controls{
                     this.reverse = false;
                     break;
             }
+            /*
+            * debug for controls
+            */
             console.table(this);
         }
     }
