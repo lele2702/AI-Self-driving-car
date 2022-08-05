@@ -7,12 +7,11 @@ class Controls{
 
         this.#addKeyboardListeners();
     }
-
-    /*
-    * private method to move the 
-    * manually car
-    * along the road
-    */
+    /**
+     * private method to move the 
+     * manually car
+     * along the road
+     */
     #addKeyboardListeners(){
 
         document.onkeydown = (event) => {
@@ -30,10 +29,10 @@ class Controls{
                     this.reverse = true;
                     break;
             }
-            /*
-            * debug for controls
-            */
-            console.table(this);
+            /**
+             * debug for controls
+             */
+            //console.table(this);
         }
 
         document.onkeyup = (event) => {
@@ -51,10 +50,10 @@ class Controls{
                     this.reverse = false;
                     break;
             }
-            /*
-            * debug for controls
-            */
-            console.table(this);
+            /**
+             * debug for controls
+             */
+            //console.table(this);
         }
     }
 }
